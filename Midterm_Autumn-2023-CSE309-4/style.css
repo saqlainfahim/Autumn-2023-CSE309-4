@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Lato;
+    src: url(Lato-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CAEDFF;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    color: #072541;
+}
+
+.name {
+    text-align: center;
+}
+
+hr {
+    border: 2px solid #072541;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 15px;
+}
+
+.navBar {
+    text-align: center;
+}
+
+.indexMain {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.navBar a {
+    display: inline-block;
+    background-color: azure;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 8px;
+    text-decoration: none;
+    color: #072541;
+    border-radius: 5px;
+}
+
+.navBar a.active {
+    background-color: orange;
+    color: #072541;
+}
+
+.navBar a:hover {
+    background-color: #072541;
+    color: #CAEDFF;
+}
+
+.projectTitle {
+    display: inline-block;
+    background-color: #072541;
+    color: #CAEDFF;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+main section div p {
+    font-size: 1.3em;
+}
+
+img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 8px solid orange;
+    border-radius: 15px;
+}
+
+main section p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+section {
+    width: 100%;
+    padding: 10px;
+}
+
+.home {
+    display: block;
+    width: 60%;
+    float: left;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.profilePic {
+    width: 25%;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    background-color: azure;
+    padding: 15px;
+}
+
+small a {
+    text-decoration: none;
+    color: #072541;
+}
